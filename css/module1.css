@@ -1,0 +1,14 @@
+.container{
+	display: flex;
+}
+
+.module{
+	border-radius: 50%;
+	border: 2px solid teal;
+	width: 200px;
+	height: 200px;
+	background: teal;
+	justify-content: center;
+	display: flex;
+	
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<script src="https://kit.fontawesome.com/16f767819b.js" crossorigin="anonymous"></script>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.hs-container{
+			text-align: center;
+			width: 50px auto;
+			background: teal;
+			margin: 0;
+			padding: 0;
+
+		}
+		.subject{
+			display: inline-flex;
+		}
+		.rounded-image{
+			margin: 0 10px 10px;
+			padding-top: 20px;
+		}
+		.rounded-image img{
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+		}
+
+		.hs-container h3{
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<!-- Navbar -->
+	<header>
+		<a class="navbar-brand logo" href="../index.html">Learn.io</a>
+		<nav class="navbar navbar-expand-lg nav-links">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+				aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-links" href="contact.html">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-links" href="#">Courses</a>
+					</li>
+					<li class="nav-item">
+						<form class="form-inline">
+							<a class="nav-link sign-up" href="signup.html">Sign Up</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<div class="hs-container">
+		<div class="subject">
+			<div class="rounded-image">
+				<a href="periodic-table.html" target="_blank"><img src="../image/chemistry.jpg" alt=""></a>
+				<h3>Science</h3>
+			</div>
+		</div>
+		<div class="subject">
+			<div class="rounded-image">
+				<a href=""><img src="../image/math.png" alt=""></a>
+				<h3>Math</h3>
+			</div>
+		</div>
+	<div class="hs-container">
+		<div class="subject">
+			<div class="rounded-image">
+				<a href="#"><img src="../image/english.png" alt=""></a>
+				<h3>Languages</h3>
+			</div>
+		</div>
+		<div class="subject">
+			<div class="rounded-image">
+				<a href=""><img src="../image/communication.png" alt=""></a>
+				<h3>Communication</h3>
+			</div>
+		</div>
+	</div>
+	<footer>
+        <p>&copy;Created by TESDA Web Developer Level II - Group 2 <i class="fa fa-heart"></i></p>
+    </footer>
+</body>
+</html>

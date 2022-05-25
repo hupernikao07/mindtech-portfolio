@@ -1,0 +1,96 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	background: #20252B;
+	transition: all .5s ease-in-out;
+}
+
+body h1{
+	text-align: center;
+}
+body p{
+	text-align: center;
+}
+
+table{
+	margin: auto;
+}
+
+th{
+	background-color: #16191e;
+	border-spacing: 0px;
+}
+
+.element{
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+
+}
+
+.element:hover > .details {
+    opacity: 1;
+    transform: scale(3);
+    top: 150px;
+}
+
+.details {
+    opacity: 0;
+    transform: scale(2);
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 143px;
+    left: 550px;
+    /*display:none;*/
+    z-index: 10;
+    background-color: inherit !important;
+}
+.element h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/*COLORS*/
+
+.nonMetal{
+	border-bottom: 5px solid #c39f3d;
+}
+
+.alkaliMetal{
+	border-bottom: 5px solid #af1b1a;	
+}
+
+.alkalineEarth{
+	border-bottom: 5px solid #257491;
+}
+
+.transitionMetal{
+	border-bottom: 5px solid #bc6d15;
+}
+
+.lanthanoids{
+	border-bottom: 5px solid #a15846;
+}
+
+.actinoids{
+	border-bottom: 5px solid #47623b;
+}
+
+.superActinoid{
+	border-bottom: 5px solid #bdbec1;
+}
+
+.nobleGases{
+	border-bottom: 5px solid #53307b;
+}
+
+.metalloids{
+	border-bottom: 5px solid #9c223a;
+}
+
+.postTransition{
+	border-bottom: 5px solid #0f5b7f;
+}
